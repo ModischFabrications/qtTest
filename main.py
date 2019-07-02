@@ -1,6 +1,6 @@
 from PySide2.QtCore import QFile
-from PySide2.QtWidgets import QApplication, QLabel
 from PySide2.QtUiTools import QUiLoader
+from PySide2.QtWidgets import QApplication
 
 
 def main():
@@ -17,6 +17,7 @@ def main():
     window.show()
 
     exit(app.exec_())
+
 
 if __name__ == '__main__':
     main()
